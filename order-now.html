@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sun And Moon Cafe</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <section class="order_header">
+        <nav>
+            <a href="Index.html"> <img src="img/logo.png" /></a>
+            <div class="nav-link">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about_our_cafe.html">ABOUT OUR CAFE</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="specials.html">SPECIALS</a></li>
+                    <li><a href="Gallery.html">GALLERY</a></li>
+                    <li><a href="order-now.html">ORDER NOW</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+        </nav>
+        <h1>ORDER NOW</h1>
+
+
+
+
+    </section>
+</body>
+<div class="order-col">
+    <h2> Start Ordering!</h2>
+    <form action="form-contact-us.php" method="post">
+        <input type="text" name="name" placeholder="Enter your name" required />
+        <input type="text" name="email" placeholder="Enter your Email address" required />
+        <input type="text" name="number" placeholder="Enter Your Number" required />
+        <input type="text" name="food" placeholder="Enter The Food You Want To Order" required />
+        <input type="text" name="address" placeholder="Enter Your Address" required />
+        <input type="text" name="messages" placeholder="Any Additional Messages For The Delivery Man?">
+        <button type="Submit" class="hero-btn order-btn">Order Now</button>
+    </form>
+</div>
+
+<div class="wrapper">
+    <h2>NEWSLETTER SIGN UP</h2>
+    <div id="error_message"></div>
+    <form action="" id="myform" onsubmit="return validate();">
+        <div class="input_field">
+            <input type="text" placeholder="Name" id="name" />
+        </div>
+        <div class="input_field">
+            <input type="text" placeholder="Product Interest" id="Product Interest" />
+        </div>
+        <div class="input_field">
+            <input type="text" placeholder="Phone" id="phone" />
+        </div>
+        <div class="input_field">
+            <input type="text" placeholder="Email {Eg: example@gmail.com}" id="email" />
+        </div>
+        <div class="input_field">
+            <input type="text" placeholder="Birthday {Eg: (072000)}" id="Birthday" />
+        </div>
+        <div class="hero-btn">
+            <input type="submit" />
+        </div>
+    </form>
+</div>
+
+
+
+
+<section class="res_header">
+
+
+</section>
+</body>
+
+<!-----Table Reservations----->
+
+<section class="banner">
+    <h2>BOOK YOUR TABLE NOW</h2>
+    <div class="card-container">
+        <div class="card-img">
+
+        </div>
+
+        <div class="card-content">
+            <h3>Reservation</h3>
+            <form>
+                <div class="form-row">
+                    <select name="days">
+                    <option value = "day-select">Select Day</option>
+                    <option value = "sunday">Sunday</option>
+                    <option value = "monday">Monday</option>
+                    <option value = "tuesday">Tuesday</option>
+                    <option value = "wednesday">Wednesday</option>
+                    <option value = "thursday">Thursday</option>
+                    <option value = "friday">Friday</option>
+                    <option value = "saturday">Saturday</option>
+                </select>
+
+
+                    <select name="hours">
+                    <option value = "hour-select">Time</option>
+                    <option value = "10">10: 00</option>
+                    <option value = "10">12: 00</option>
+                    <option value = "10">14: 00</option>
+                    <option value = "10">16: 00</option>
+                    <option value = "10">18: 00</option>
+                    <option value = "10">20: 00</option>
+                    <option value = "10">22: 00</option>
+                </select>
+                </div>
+
+                <div class="form-row">
+                    <input type="text" placeholder="Full Name">
+                    <input type="text" placeholder="Mobile Number">
+                </div>
+
+                <div class="form-row">
+                    <input type="number" placeholder="How Many People?" min="1">
+                    <input type="submit" value="BOOK TABLE">
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Contact Us: 0455 9999 555</p>
+    <p>Catering: 0433 3333 999</p>
+    <p>Address: 223 Powel St in Bowen, Queensland</p>
+    <div class="icons">
+        <span class="fa fa-star fa-facebook"></span>
+        <span class="fa fa-star fa-twitter"></span>
+        <span class="fa fa-star fa-instagram"></span>
+        <span class="fa fa-star fa-linkedin"></span>
+    </div>
+    <p>Made By Ragul Raj</p>
+</section>
+<section class="footer-nav-link">
+    <nav>
+        <a href="order-now.html"> <img src="img/logo.png" /></a>
+        <div class="nav-link">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about_our_cafe.html">ABOUT OUR CAFE</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="specials.html">SPECIALS</a></li>
+                <li><a href="Gallery.html">GALLERY</a></li>
+                <li><a href="order-now.html">ORDER NOW</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+                <li><a href="Project plan .html">PROJECT PLAN</a></li>
+            </ul>
+        </div>
+    </nav>
+</section>
+</body>
+<script src="script.js"></script>
+
+</html>

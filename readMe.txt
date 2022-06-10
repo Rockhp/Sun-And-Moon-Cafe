@@ -1,0 +1,2 @@
+The website (Including Design Comps, Project Plan and Design Rationalisation) and all Developed Pages, together with the CSS/JS/PHP files are here.
+The website is uploaded to a SiteGround. The images used for the gallery Web Page are in the "Gallery" folder which is inside the "Img" folder
